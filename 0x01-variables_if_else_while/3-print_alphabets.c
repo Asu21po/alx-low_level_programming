@@ -1,16 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - prints alpha in lower and upper case
- * Return: Always 0
+ * main - prints the alphabet.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char ch;
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putcher(ch);
-	for (ch = 'A'; ch <= ;'Z';ch++)
-			putcher(ch);
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
+
+	for (i = 0; i < 52; i++)
+	{
+		putchar(alp[i]);
+	}
 	putcher('\n');
 
 	return (0);

@@ -12,9 +12,9 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		putcher(alp[i]);
+		putchar(alp[i]);
 	}
-	putcher('\n');
+	putchar('\n');
 	return (0);
 }
 

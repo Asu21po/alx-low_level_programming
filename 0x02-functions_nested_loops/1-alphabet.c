@@ -2,7 +2,9 @@
 
 /**
  * print_alphabet - prints the alpha in lowercase
+ * Return: void
  */
+
 void print_alphabet(void)
 {
 	char la;

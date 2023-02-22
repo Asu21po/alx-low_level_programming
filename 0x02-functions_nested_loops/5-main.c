@@ -10,12 +10,12 @@ int main(void)
 {
       int r;
 
-      r = print_sign();
+      r = _print_sign();
       _putchar(',');
       _putchar(' ');
       _putchar(r + '0');
       _putchar('\n');
-      r = print_sign(0);
+      r =_print_sign(0);
       _putchar(',');
       _putchar(' ');
       _putchar(r + '0');

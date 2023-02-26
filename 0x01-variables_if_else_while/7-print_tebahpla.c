@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - prints the lower case alphabet in reverse,
- * followed by a new line
+ * main - Entry point
+ * Description: Prints the alphabets in reverse
  * Return: Always 0 (Succcess)
  */
 int main(void)
 {
-	int n = 12;
+	int n = 122;
 
 	while (n >= 97)
 	{

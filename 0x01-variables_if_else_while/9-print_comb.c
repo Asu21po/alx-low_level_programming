@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Description: print comb of numbers
- * Retun: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
